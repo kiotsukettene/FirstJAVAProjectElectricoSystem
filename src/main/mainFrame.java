@@ -2076,7 +2076,7 @@ public class mainFrame extends javax.swing.JFrame {
                     BillandReceipt.place.setText(add);
                     BillandReceipt.billPeriod.setText(date + " to " + nextMonth + " 2023");
                     BillandReceipt.billdate.setText(nextMonth + " 2023");
-                    BillandReceipt.dateMeterRead.setText(date);
+                    BillandReceipt.dateMeterRead.setText(date + " 2023");
                     BillandReceipt.dateNextRead.setText(nextMonth + " 2023");
                     BillandReceipt.meter_number.setText(mnumber);
                     BillandReceipt.curr_read.setText(current);
