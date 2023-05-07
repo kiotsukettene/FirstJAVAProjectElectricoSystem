@@ -731,7 +731,7 @@ public class Frontpage extends javax.swing.JFrame {
                 
                
                 jTabbedPane1.setSelectedIndex(1);
-            }
+            } 
             
             else {
                 JOptionPane.showMessageDialog(null, "Registration Failed!!");
@@ -739,7 +739,7 @@ public class Frontpage extends javax.swing.JFrame {
             }
             
             
-            
+           sqlcon.close(); 
         }
         catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
